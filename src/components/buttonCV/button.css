@@ -1,0 +1,13 @@
+.gpt3__cv-container button{
+    margin-top: 2rem;
+    padding: 20px;
+    color: white;
+    background: #FF4820;
+    border-radius: 5px;
+    font-weight: 500;
+    border: none;
+    font-size: 18px;
+    line-height: 25px;
+    outline: none;
+    cursor: pointer;
+}
