@@ -4,7 +4,7 @@ import './navbar.css'
 import logo from '../../assets/hexagon.svg'
 import { AiOutlineLinkedin } from 'react-icons/ai'
 import { FaGitSquare, FaBars } from 'react-icons/fa'
-
+import moi from '../../assets/moi.jpg'
 
 const Menu = () => (
     <>
@@ -18,8 +18,17 @@ const Menu = () => (
 
 const Navbar = () => {
     const [toggleMenu, setToggleMenu] = useState(false)
+    const [navFixed, setNavFixed] = useState('')
+    window.addEventListener('scroll', () => {
+        if(window.scrollY > 150){
+            console.log('navbar fixed')
+            setNavFixed('gtp3__navbar-fixed')
+        }else{
+            setNavFixed('')
+        }
+    })
     return (
-        <div className='gtp3__navbar'>
+        <div className={`gtp3__navbar ${navFixed}`}>
             <div className='gpt3__navbar-links'>
                 <div className='gpt3__logo-navbar'>
                     <img src={logo} alt="logo" />
@@ -29,6 +38,7 @@ const Navbar = () => {
                 </div>
             </div>
             <div className='gpt3__navbar-signin'>
+                <img src={moi} alt="moi" />
                 <button className='github'><FaGitSquare className='social-icon' /><a href="https://github.com/vamos91">Github</a></button>
                 <button className='linkedin'><AiOutlineLinkedin className='social-icon' /><a href="https://www.linkedin.com/in/nicolas-acard-a4644466/">Linkedin</a></button>
             </div>

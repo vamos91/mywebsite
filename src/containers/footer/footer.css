@@ -34,17 +34,17 @@
 
 .gpt3__footer-links{
     display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
+    justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
-    flex-direction: row;
+    flex-direction: column;
     width: 100%;
-    text-align: left;
+    text-align: center;
 }
 
 .gpt3__footer-links div{
-    width: 250px;
-    margin: 1rem;
+    /* width: 250px;
+    margin: 1rem; */
 }
 
 .gpt3__footer-links-logo{
@@ -64,8 +64,9 @@
 
 .gpt3__footer_links-div{
     display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
 }
 
 .gpt3__footer_links-div h4{

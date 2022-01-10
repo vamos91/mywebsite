@@ -21,12 +21,6 @@ const Footer = () => {
                     <p>Tel: 0661568140</p>
                     <p>Mail: acardnicolas91@gmail.com</p>
                 </div>
-                <div className='gpt3__footer_links-div'>
-                    <h4></h4>
-                </div>
-                <div className='gpt3__footer_links-div'>
-                    <h4></h4>
-                </div>
                 <div className='gpt3__footer_links-div social'>
                     <h4></h4>
                     <div className='social-logo'>
