@@ -18,7 +18,7 @@ const Blog = () => {
             </div>
             <div className='gpt3__blog-container'>
                 <div className='gpt3__blog-container-groupA'>
-                    <Article imgUrl={blog01} date="12 dec 2020" techno={[< FaNodeJs color="#88C248" />, <SiExpress />]} title="Site vitrine pour la promotion de cours dans le domaine du numérique tels que l'apprentissage du code et de ses bonnes pratiques."/>
+                    <Article imgUrl={blog01} date="21 sept 2020" techno={[< FaNodeJs color="#88C248" />, <SiExpress />]} title="Site vitrine pour la promotion de cours dans le domaine du numérique tels que l'apprentissage du code et de ses bonnes pratiques."/>
                 </div>
                 <div className='gpt3__blog-container-groupB'>
                     <Article imgUrl={blog02} date="12 dec 2018" techno={[< FaVuejs color="#3FB17F" />]} title="Site vitrine permettant la reservation de croisières dans le monde entier. Les skippers peuvent d'ajouter, voir, modifier et supprimer des croisières" />
