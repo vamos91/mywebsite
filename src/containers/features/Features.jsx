@@ -6,10 +6,22 @@ import logoCapsule from "../../assets/capsule.png"
 import logoSimplon from "../../assets/simplon.png"
 import logoGep from '../../assets/gep.png'
 import logoSkypicture from "../../assets/sky.jpeg"
+import logoPlateforme from '../../assets/plateforme.png'
+import logoWild from '../../assets/wild.png'
 
 
 const Features = () => {
     const featureData = [
+        {
+            title: "LA WILD CODE SCHOOL",
+            text: "En charge de l'accompagnement des apprenants vers le titre professionnel de niveau IV sur les parties WEB fullstack JAVASCRIPT et mobile.",
+            img: logoWild
+        },
+        {
+            title: "LA PLATEFORME MARSEILLE",
+            text: "En charge de l'accompagnement des apprenants vers le titre professionnel de niveau IV sur les parties WEB fullstack et mobile.",
+            img: logoPlateforme
+        },
         {
             title: "LA CAPSULE ACADEMY",
             text: "Coding Bootcamp en 10 semaines pour apprendre à coder et devenir développeur web ou avoir les compétences techniques pour travailler dans la tech. Formation et accompagnement d’une promo Développeur Web & Mobile vers le titre de niveau VI(niveau Bac + 3 / 4).",
