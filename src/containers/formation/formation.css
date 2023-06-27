@@ -44,8 +44,12 @@
 
 @media screen and (max-width: 550px) {
     .gtp3__whatgtp3-heading h1{
-        font-size: 28px;
+        font-size: 22px;
         line-height: 30px;
+    }
+
+    .gpt3__header-image{
+        display: none;
     }
 
     .section__margin{
@@ -53,8 +57,11 @@
     }
 
     .section__padding{
+        padding: 0rem 1rem; 
+      }
+    /* .section__padding{
         padding: 4rem 4rem;
-    }
+    } */
 
     .gpt3__whatgpt3-container{
         flex-direction: column;

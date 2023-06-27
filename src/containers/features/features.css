@@ -35,8 +35,13 @@
         flex-direction: column;
     }
 
+    .gpt3__feature-header{
+        width: 100%;
+        padding-right: 1rem;
+    }
+
     .gpt3__feature-header p, .gpt3__feature-header h1{
-        font-size: 28px;
+        font-size: 22px;
         line-height: 30px;
     }
 }
